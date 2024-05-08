@@ -1,8 +1,5 @@
-// @flow strict
-
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
-
 
 function AboutSection() {
   return (
@@ -22,14 +19,22 @@ function AboutSection() {
             {personalData.description}
           </p>
         </div>
-        <div className="flex justify-center order-1 lg:order-2">
-          <Image
-            src={personalData.profile}
-            width={280}
-            height={280}
-            alt="RAM ORTEGA"
-            className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
-          />
+        <div className="flex justify-center order-1 lg:order-2 relative">
+          <div
+            style={{
+              border: "1px solid #1C0A70",
+              boxShadow: "0 0 10px #1C0A70",
+              borderRadius: "10px",
+            }}
+          >
+            <Image
+              src={personalData.profile}
+              width={280}
+              height={280}
+              alt="RAM ORTEGA"
+              className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
+            />
+          </div>
         </div>
       </div>
     </div>
