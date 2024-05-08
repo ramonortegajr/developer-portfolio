@@ -7,5 +7,13 @@ export const skillsData = [
   'PHP',
   'Express',
   'VBNet',
-  'Git'
+  'Git',
+  'CSharp',
+  'C',
+  'Photoshop', 
+  'JSON',
+  'Jira',
+  'VSCode',
+  'RESTAPI',
+  'Postman'
 ]
