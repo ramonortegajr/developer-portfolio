@@ -5,7 +5,7 @@ export const contactsData = {
     github: 'https://github.com/ramonortegajr',
     facebook: 'https://www.facebook.com/ram.ortega.71/',
     linkedIn: 'https://www.linkedin.com/in/ramon-ortega-jr/',
-    twitter: '//instagram.com/ramortega03/',
-    instagram: '//instagram.com/ramortega03/',
+    instagram: 'https://instagram.com/ramortega03/',
+    stackOverflow: 'https://stackoverflow.com/users/15231631/r-a-m/',
     devUsername: "ramonortegajr"
 }

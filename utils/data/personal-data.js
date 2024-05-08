@@ -9,9 +9,8 @@ export const personalData = {
   github: 'https://github.com/ramonortegajr',
   facebook: 'https://www.facebook.com/ram.ortega.71/',
   linkedIn: 'https://www.linkedin.com/in/ramon-ortega-jr/',
-  twitter: 'https://instagram.com/ramortega03',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-  leetcode: "https://leetcode.com/said3812/",
+  stackOverflow: 'https://stackoverflow.com/users/15231631/r-a-m',
+  instagram: "https://instagram.com/ramortega03/",
   devUsername: "ramonortegajr",
   resume: "https://drive.google.com/file/d/1z02Ba6oPkaTIFVgbqg3XJkizBZ_YwBpa/view?usp=drive_link",
 }
