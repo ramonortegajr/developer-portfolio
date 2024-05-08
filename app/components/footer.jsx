@@ -16,22 +16,6 @@ function Footer() {
           Copyright © {currentYear} | GitHub Portfolio by <Link target="_blank" href="https://www.linkedin.com/in/ramon-ortega-jr/" className="text-primary-icon">Ram Ortega</Link>
           </p>
           <div className="flex items-center gap-5">
-            <Link
-              target="_blank"
-              href="https://github.com/ramonortegajr/developer-portfolio"
-              className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
-            >
-              <IoStar />
-              <span>Star</span>
-            </Link>
-            <Link
-              target="_blank"
-              href="https://github.com/ramonortegajr/developer-portfolio/fork"
-              className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
-            >
-              <CgGitFork />
-              <span>Fork</span>
-            </Link>
           </div>
         </div>
       </div>
