@@ -4,4 +4,4 @@
 - Skills & Tools
 - Contact
 # Test Website
-- https://ramortega-developer-portfolio.netlify.app/
+- https://tinyurl.com/ramwibsayt
