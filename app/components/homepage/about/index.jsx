@@ -23,7 +23,7 @@ function AboutSection() {
           <div
             style={{
               border: "1px solid #1C0A70",
-              boxShadow: "0 0 10px #1C0A70",
+              boxShadow: "0 0 4px #1C0A70",
               borderRadius: "10px",
             }}
           >

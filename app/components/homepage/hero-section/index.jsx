@@ -4,7 +4,7 @@ import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaFacebook, FaInstagramSquare, FaStackOverflow, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagramSquare, FaStackOverflow } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 
@@ -25,7 +25,7 @@ function HeroSection() {
             Hello, <br />
             This is  {' '}
             <span className=" text-pink-500">{personalData.name}</span>
-            {` , I'm a `}
+            {` , I am an `}
             <span className=" text-[#16f2b3]">{personalData.designation}</span>
             .
           </h1>
