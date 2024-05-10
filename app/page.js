@@ -33,9 +33,8 @@ export default async function Home() {
       <Experience />
       <Skills />
       <Education />
-      <ContactSection />
       {/* <Projects /> */}
-    
+      <ContactSection />
     </>
   )
 };
