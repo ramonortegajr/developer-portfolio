@@ -9,7 +9,7 @@ export const educations = [
     id: 2,
     title: "Vocational Education (SMAW NCII)",
     duration: "2016 - 2017",
-    institution: "Pasig City Institute of Technology",
+    institution: "Pasig City Institute of Science & Technology",
   },
   {
     id: 3,
