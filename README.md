@@ -4,6 +4,6 @@
 - Skills & Tools
 - Contact
 # Test Website
-- https://tinyurl.com/ramwibsayt
+- https://tinyurl.com/ram-wibsayt
 # Integration of EmailJS API
 - https://www.emailjs.com/docs/
