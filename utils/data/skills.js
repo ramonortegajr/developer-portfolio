@@ -15,5 +15,9 @@ export const skillsData = [
   'Jira',
   'VSCode',
   'RESTAPI',
-  'Postman'
+  'Postman',
+  'XAMPP',
+  'Vercel',
+  'Navicat',
+  'Netlify'
 ]

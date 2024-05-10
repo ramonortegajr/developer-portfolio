@@ -20,10 +20,22 @@ import jira from '/public/svg/skills/jira.png';
 import postman from '/public/svg/skills/postman.png';
 import vscode from '/public/svg/skills/vscode.png';
 import json from '/public/svg/skills/json.png';
+import xampp from '/public/svg/skills/xampp.png';
+import vercel from '/public/svg/skills/vercel.png';
+import netlify from '/public/svg/skills/netlify.png';
+import navicat from '/public/svg/skills/navicat.png';
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
+    case 'xampp':
+      return xampp;
+    case 'vercel':
+      return vercel;
+    case 'netlify':
+      return netlify;
+    case 'navicat':
+      return navicat;
     case 'restapi':
       return restapi;
     case 'jira':

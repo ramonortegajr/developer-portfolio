@@ -6,6 +6,11 @@ import { useState } from 'react';
 import { TbMailForward } from "react-icons/tb";
 import { toast } from 'react-toastify';
 
+//This credentials is from EmailJS
+const NEXT_PUBLIC_EMAILJS_SERVICE_ID = "service_anj3z8x"
+const NEXT_PUBLIC_EMAILJS_TEMPLATE_ID = "template_o28hf74"
+const NEXT_PUBLIC_EMAILJS_PUBLIC_KEY = "mzBtirGO91hjk4j8H"
+
 function ContactWithoutCaptcha() {
   const [input, setInput] = useState({
     name: '',
@@ -34,9 +39,9 @@ function ContactWithoutCaptcha() {
       setError({ ...error, required: false });
     };
 
-    const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
-    const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
-    const options = { publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY };
+    const serviceID = NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+    const templateID = NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+    const options = NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
 
     try {
       const res = await emailjs.send(serviceID, templateID, input, options);
