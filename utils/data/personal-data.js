@@ -1,7 +1,7 @@
 export const personalData = {
   name: "RAM ORTEGA",
   profile: '/me.png',
-  designation: "IT Operation Specialist",
+  designation: "IT Operations Specialist",
   description: "Hi I'm Ramon Ortega Jr. I work as a IT Operation Specialist. I have a self-learning attitude and am a fast learner. I'm passionate about solving problems and I love to learn about and explore with new technologies. I'm passionate about Node JS and Express JS, and I'm always learning about all aspects of web application development. The main field of interest is Node.js, and I enjoy working with it for most tasks. I am open to working on any type of project that aligns with my interests and skill set.",
   email: 'ramonortegajr1997@gmail.com',
   phone: '09518767704',

@@ -7,7 +7,7 @@ import git from '/public/svg/skills/git.svg';
 import html from '/public/svg/skills/html.svg';
 import javascript from '/public/svg/skills/javascript.svg';
 import kotlin from '/public/svg/skills/kotlin.svg';
-import microsoftoffice from '/public/svg/skills/microsoftoffice.svg';
+import msoffice from '/public/svg/skills/msoffice.svg';
 import mysql from '/public/svg/skills/mysql.svg';
 import photoshop from '/public/svg/skills/ps.png';
 import picsart from '/public/svg/skills/picsart.svg';
@@ -68,8 +68,8 @@ export const skillsImage = (skill) => {
       return git;
     case 'figma':
       return figma;
-    case 'microsoft office':
-      return microsoftoffice;
+    case 'msoffice':
+      return msoffice;
     case 'picsart':
       return picsart;
     case 'canva':
