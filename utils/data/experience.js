@@ -1,8 +1,8 @@
 export const experiences = [
   {
     id: 1,
-    title: "IT Operation Specialist",
-    company: "GoodKredit Inc.",
+    title: "IT Operations Specialist",
+    company: "GoodKredit Philippines Inc.",
     duration: "(March 2024 - Present)"
   },
   {
