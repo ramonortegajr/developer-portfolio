@@ -60,7 +60,7 @@ function ContactWithCaptcha() {
     const serviceID = NEXT_PUBLIC_EMAILJS_SERVICE_ID;
     const templateID = NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
     const options = NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
-
+    
     try {
       const res = await emailjs.send(serviceID, templateID, input, options);
 
@@ -73,7 +73,7 @@ function ContactWithCaptcha() {
         });
       };
     } catch (error) {
-      toast.error(error?.text || error, "HEYYYY ERROR");
+      toast.error(error?.text || error);
     };
   };
 
