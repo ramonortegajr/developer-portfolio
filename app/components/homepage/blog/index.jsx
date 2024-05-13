@@ -33,7 +33,8 @@ function Blog({ blogs }) {
       </div>
        {/* Center the image horizontally */}
        <div className="flex justify-center">
-        <img src="/working.png" alt="Working" className="inline-block h-auto max-w-full" style={{ maxWidth: '50%' }} />
+        {/* <img src="/working.png" alt="Working" className="inline-block h-auto max-w-full" style={{ maxWidth: '60%' }} /> */}
+        <p>Currently Working on this part!</p>
       </div>
       <div className="flex justify-center  mt-5 lg:mt-12">
         <Link

@@ -10,7 +10,7 @@ function Navbar() {
           <Link
             href="/"
             className=" text-white text-3xl font-bold">
-            MY WIBSAYT
+            MYWIBSAYT
           </Link>
         </div>
 
