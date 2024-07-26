@@ -7,7 +7,7 @@
 - Reviews
   
 # Test Website
-- https://tinyurl.com/my-wibsayt
+- https://tinyurl.com/fuckin-wibsayt
 # EmailJS API
 - https://www.emailjs.com/docs/
 # Setup EmailJS 
