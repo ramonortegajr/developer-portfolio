@@ -7,9 +7,9 @@ import { TbMailForward } from "react-icons/tb";
 import { toast } from 'react-toastify';
 
 //This credentials is from EmailJS
-const NEXT_PUBLIC_EMAILJS_SERVICE_ID = "service_anj3z8x"
+const NEXT_PUBLIC_EMAILJS_SERVICE_ID = "service_vrwpvr6"
 const NEXT_PUBLIC_EMAILJS_TEMPLATE_ID = "template_o28hf74"
-const NEXT_PUBLIC_EMAILJS_PUBLIC_KEY = "T-TulfiHS8JnpUBx_"
+const NEXT_PUBLIC_EMAILJS_PUBLIC_KEY = "LJusZWcxDPcfa4cuY"
 
 function ContactWithoutCaptcha() {
   const [input, setInput] = useState({
